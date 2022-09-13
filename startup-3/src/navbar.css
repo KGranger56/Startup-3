@@ -1,0 +1,48 @@
+.brand {
+  margin-left: 117px;
+}
+
+.button {
+  background-color: var(--main-action-primary);
+  color: var(--main-bg);
+  border-color: var(--main-action-primary);
+  border-radius: 100px;
+  width: 100px;
+  height: 40px;
+  border-width: 0px;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 26px;
+  margin-right: 110px;
+}
+
+svg.search-icon {
+  color: rgba(21, 20, 57, 0.4);
+  font-size: 16px;
+  line-height: 16px;
+  display: flex;
+  margin-top: 7px;
+}
+
+div.me-auto.navbar-nav,
+.heading.text,
+a.nav-link {
+  color: var(--main-text);
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 28px;
+}
+
+.heading,
+.brand {
+  color: var(--main-heading);
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 31.25px;
+}
+
+.heading.text {
+  margin-right: 21px;
+  position: absolute;
+  padding-left: 1006px;
+}
