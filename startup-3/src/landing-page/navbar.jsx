@@ -11,10 +11,18 @@ function Navibar() {
       <h3 className="heading brand">Startup 3</h3>
       <Navbar variant="var(--main-bg)">
         <Nav className="me-auto">
-          <Nav.Link href="#home">Home</Nav.Link>
-          <Nav.Link href="#features">Features</Nav.Link>
-          <Nav.Link href="#blog">Blog</Nav.Link>
-          <Nav.Link href="#shop">Shop</Nav.Link>
+          <Nav.Link href="#home" className="nav-home">
+            Home
+          </Nav.Link>
+          <Nav.Link href="#features" className="nav-features">
+            Features
+          </Nav.Link>
+          <Nav.Link href="#blog" className="nav-blog">
+            Blog
+          </Nav.Link>
+          <Nav.Link href="#shop" className="nav-shop">
+            Shop
+          </Nav.Link>
           <Nav.Link href="#search">
             <FontAwesomeIcon
               icon="fa-solid fa-magnifying-glass"
