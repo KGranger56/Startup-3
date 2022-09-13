@@ -46,3 +46,19 @@ a.nav-link {
   position: absolute;
   padding-left: 1006px;
 }
+
+.nav-home {
+  margin-right: 33px;
+}
+
+.nav-features {
+  margin-right: 37px;
+}
+
+.nav-blog {
+  margin-right: 39px;
+}
+
+.nav-shop {
+  margin-right: 30px;
+}
