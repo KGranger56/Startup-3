@@ -1,0 +1,86 @@
+div.navbar {
+  display: flex;
+  margin: 0 auto;
+}
+
+li,
+a {
+  text-decoration: none;
+  list-style: none;
+}
+
+ul {
+  padding-left: 0px;
+  list-style-type: disc;
+  margin-block-start: 0px;
+  margin-block-end: 0px;
+  padding-inline-start: 0px;
+  display: flex;
+}
+
+h3.nav {
+  margin: 0 auto;
+  padding: 0 auto;
+}
+
+.nav {
+  color: var(--main-text);
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 28px;
+}
+
+.brand.nav {
+  margin-left: 117px;
+}
+
+.buttonSignUp {
+  background-color: var(--main-action-primary);
+  color: var(--main-bg);
+  border-color: var(--main-action-primary);
+  border-radius: 100px;
+  width: 100px;
+  height: 40px;
+  border-width: 0px;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 26px;
+  margin-left: 21px;
+}
+
+.nav-home {
+  margin-right: 33px;
+  margin-left: 298px;
+}
+
+.nav-features {
+  margin-right: 37px;
+}
+
+.nav-blog {
+  margin-right: 39px;
+}
+
+.nav-shop {
+  margin-right: 30px;
+}
+
+.nav.signIn {
+  margin-right: 21px;
+}
+
+svg.search-icon {
+  color: rgba(21, 20, 57, 0.4);
+  font-size: 16px;
+  line-height: 16px;
+  display: flex;
+  margin-top: 7px;
+}
+
+.heading,
+.brand {
+  color: var(--main-heading);
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 31.25px;
+}

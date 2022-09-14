@@ -8,53 +8,5 @@
 .app {
   margin: auto;
   margin-top: 65px;
-  max-width: 1294px;
-}
-
-div.landing-body {
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-}
-
-.landing-h1 {
-  margin-top: 93.8px;
-  color: var(--main-heading);
-  font-weight: 700;
-  font-size: 72px;
-  line-height: 86px;
-}
-
-.landing-info {
-  margin-top: 37.8px;
-  color: var(--main-text);
-  font-weight: 500;
-  font-size: 22px;
-  line-height: 32px;
-}
-
-.learn-more {
-  width: 100px;
-  height: 26px;
-  font-weight: 500;
-  font-size: 18px;
-  line-height: 26px;
-  font-family: "Poppins", sans-serif;
-  color: var(--main-action-primary);
-  margin: auto;
-  margin-top: 17.2px;
-}
-
-button.purchase {
-  background-color: var(--main-action-primary);
-  color: var(--main-bg);
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 26px;
-  width: 300px;
-  height: 60px;
-  border-radius: 100px;
-  border: var(--main-action-primary);
-  margin: auto;
-  margin-top: 79.2px;
+  width: 1294px;
 }
